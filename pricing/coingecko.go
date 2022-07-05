@@ -98,6 +98,8 @@ func coingeckoStartFetching(
 				price = base.EUR
 			} else if strings.EqualFold(extraPair.Quote, "USD") {
 				price = base.USD
+			} else if strings.EqualFold(extraPair.Quote, "BTC") {
+				price = base.BTC
 			} else {
 				quote, ok := (*prices)[extraPair.Quote]
 				if !ok {

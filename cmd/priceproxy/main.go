@@ -91,6 +91,7 @@ func main() {
 	<-c
 	s.Stop()
 }
+
 func setCommitHash() {
 	info, _ := debug.ReadBuildInfo()
 	modified := false

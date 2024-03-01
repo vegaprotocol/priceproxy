@@ -7,7 +7,7 @@ require (
 	github.com/jinzhu/configor v1.2.1
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/sirupsen/logrus v1.9.0
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.9.0
 	golang.org/x/time v0.2.0
 )
 
